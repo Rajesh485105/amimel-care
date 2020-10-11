@@ -1,0 +1,488 @@
+/**/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+/****************************************
+Header css code start herere*
+******************************************/
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.header{
+	width: 100%;
+	 background: #daac00;
+	
+}
+.navbar{
+	    /*background: #daac00;*/
+}
+.nav-link{
+	font-size: 18px;
+	font-weight: 400;
+	color: white !important;
+}
+
+.input-group-text{
+	background: #4999d9;
+}
+.input-group-text{
+	background: #00bec9;
+}
+
+.input-group-append i{
+	color: white !important;
+}
+.input-group>.form-control{
+	background: #fcc302;
+	border-radius: 0;
+	margin-left: 30px;
+	border: 1px solid white;
+}
+.nav-item{
+	    padding: 0px 25px;
+}
+
+/****************************************
+Banner css code start herere*
+******************************************/
+
+.banner{
+	width: 100%;
+	/*height: 100vh;
+	padding: :150px 0;*/
+	background:  #fcc302;
+}
+
+.left-banner{
+    padding: 200px 0 0 0;
+}
+.right-banner{
+           padding: 120px 0 35px 0;
+}
+.left-banner .title {
+	    color: white;
+    font-size: 64px;
+
+}
+.left-banner  .sub-title{
+    color: white;
+    font-size: 18px;
+    padding: 20px 192px 20px 0;
+  
+}
+
+.contact-btn{
+	width: 120px;
+	height: 40px;
+	background: #00bec9;
+	border: none;
+	border-radius: 5px;
+	color: white;
+     margin-right: 20px;
+
+}
+.contact-btn:hover{
+	transform: scale(1.02);
+}
+.service-btn{
+	width: 120px;
+	height: 40px;
+	background: transparent;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	border: 2px solid white;
+
+}
+.service-btn:hover{
+	transform: scale(1.02);
+}
+
+
+/*******************************
+Vedio Plagging css code start here
+***********************************/
+.video-plugin{
+	width: 100%;
+	    padding: 150px 0;
+}
+
+
+.video-image{
+	position: relative;
+}
+.image-shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	 background: rgba(255,255,0,0.5);
+}
+.image-shadow i{
+    position: absolute;
+    width: 60px;
+    top: 230px;
+    left: 230px;
+    height: 60px;
+    background: white;
+    color: yellow;
+    border-radius: 51px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+}
+.back-deco{
+	    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    left: -11px;
+    bottom: -25px;
+    z-index: -9;
+}
+.video-plugin .video-text{
+	    padding: 130px 131px 0 0;
+}
+.video-text h1{
+	font-size: 37px;
+}
+.video-text p{
+	    font-size: 20px;
+    padding: 20px 0;
+}
+  .video-text button{
+	    width: 120px;
+    height: 40px;
+    background: #fcc302;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+
+/*******************************
+vetanary-care  css code start here
+***********************************/
+
+.vetenary-care{
+	text-align: center;
+	width: 100%;
+	background: yellow;
+	margin-top: 200px;
+	padding: 120px 0;
+}
+
+.vetenary-care .title h1{
+	       font-weight: 700;
+    color: white;
+    font-size: 56px;
+}
+
+.vetenary-care .sub-title p{
+	    font-size: 19px;
+    padding: 35px 300px;
+    color: white;
+}
+
+.service-title{
+	  color: white !important;
+	    padding-top: 25px;
+}
+.service-sub-title{
+     color: white !important;
+    font-size: 14px;
+    padding: 10px 75px;
+}
+/*******************************
+Vedio Plagging-2 css code start here
+***********************************/
+
+.video-plugin-2{
+	width: 100%;
+	    padding: 150px 0;
+}
+
+
+.video-plugin-2 .video-image{
+	position: relative;
+}
+.video-plugin-2 .image-shadow{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 33px;
+	 background: rgba(255,255,0,0.5);
+}
+.video-plugin-2 .back-deco{
+	 
+      position: absolute;
+    width: 300px;
+    height: 300px;
+    background: yellow;
+    left: 247px;
+    bottom: -25px;
+    z-index: -999;
+}
+.video-plugin-2 .video-text{
+	   /* padding: 130px 131px 0 0;*/
+	    text-align: right;
+}
+
+/*******************************
+vetanary-care-2  css code start here
+***********************************/
+
+.bye-btn{
+	width: 120px;
+    height: 40px;
+    background: #00bec9;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+
+}
+
+/*******************************
+vetanary-care-team  css code start here
+***********************************/
+.vet-care-team{
+	text-align: center;
+	width: 100%;
+	margin-top: 200px;
+	padding: 120px 0;
+}
+
+.vet-care-team .title h1{
+	font-weight: 700;
+	font-size: 56px;
+}
+
+.vet-care-team .sub-title p{
+	font-size: 19px;
+	padding: 35px 300px;
+  
+}
+.vet-care-team .service-title{
+	color:#313243 !important;
+}
+.vet-care-team .service-sub-title{
+	color:#313243 !important;
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 0;
+	    margin-bottom: 5px;
+
+}
+
+.socialicon-media-area ul li{
+	/*padding: 0 5px;*/
+	list-style-type: none;
+	display: inline-block;
+
+}
+.socialicon-media-area ul li a i{
+	width: 30px;
+	height: 30px;
+	background: #daac00;
+	border-radius: 51px;
+	line-height: 30px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+/*******************************
+customer viewer  css code start here
+***********************************/
+
+.customer-viewer{
+	width: 100%;
+	padding: 150px 0;
+	background: url(../image/customer-viewer.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 100vh;
+}
+.overlay-viewer{
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,265,0,.76);
+}
+
+.customer-viewer .customer-text{    
+	text-align: center;
+}
+.customer-viewer i{
+	       color: white !important;
+    font-size: 100px;
+    font-weight: 400;
+    padding:30px;
+}
+
+.customer-viewer h2{
+	color: white !important;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.customer-viewer h3{
+ color: white !important;
+
+}
+
+/*******************************
+recent-post section code start here
+***********************************/
+.recent-post{
+	width: 100%;	
+	padding: 120px 0;
+}
+.recent-post-text{
+	text-align: center;
+}
+
+.recent-post .title h1{
+	font-weight: 700;
+	font-size: 56px;
+	columns: #313243;
+}
+
+.recent-post .sub-title p{
+	font-size: 19px;
+	padding: 35px 300px;
+	columns: #313243;
+  
+}
+
+.recent-post .service-title{    
+	padding-top: 40px;
+	color: #313243 !important;
+	font-size: 26px;
+	padding: 15px 0;
+}
+.today-date{
+	    color: #00bec9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.recent-post .service-sub-title{
+	font-size: 14px;
+	    padding: 10px 8px 10px 0;
+	color: #313243 !important;
+	margin-bottom: 6px;
+}
+
+.read-more{
+	color: #00bec9;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.recent-post-body{
+     border: .5px solid #d6d6d6;
+    height: 90vh;
+    padding: 0 30px;
+}
+.recent-post-body-1{
+   	height: 90vh;
+    padding: 0 30px;
+}
+
+/*******************************
+about section code start here
+***********************************/
+
+.about{
+	width: 100%;	
+	padding: 120px 0;
+	background: #343434;
+	color:white;
+
+}
+.about .about-text h1{
+	font-size: 26px;
+    padding: 10px 0;
+}
+
+.about  a{
+	    color: white !important;
+}
+
+.box-shpe .p-1{
+	width: 200px
+	height:0px;
+	baseline-shift: yellow;
+}
+
+.about-content{
+	text-align: right;
+}
+
+.box-shpe{
+	    width: 260px;
+    height: 50px;
+    background: #daac00;
+    margin-left: 230px;
+}
+.box-shpe-2{
+      position: absolute;
+    top: 96px;
+    left: 459px;
+    width: 100px;
+    height: 50px;
+    background: #00bec9;
+}
+.socialicon-media-area-1{
+	    text-align: end;
+    padding: 15px 0;
+    position: relative;
+}
+.socialicon-media-area-1 ul li{
+	/*padding: 0 5px;*/
+	list-style-type: none;
+	display: inline-block;
+
+}
+.socialicon-media-area-1 ul li a i{
+	width: 30px;
+	height: 30px;
+	background: white;
+	border-radius: 51px;
+	line-height: 30px;
+	color: #343434;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.sent-mail{
+	position: absolute;
+	right: 51px;
+    top: 112px;
+
+}
+
+.sent-mail a i{
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+
