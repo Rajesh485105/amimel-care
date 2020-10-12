@@ -14,6 +14,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- modal video plugin -->
+    <link rel="stylesheet" type="text/css" href="css/modal-video.min.css">
     <!-- local Css link here -->
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -102,15 +105,19 @@
                                     <button>Our Service</button>
                                   </div>
                             </div>
+                             <!-- video section -->
                            <div class="col-md-6">
                               <div class="image-section">
                                  <div class="video-image">
                                     <img src="image/animelcare-1.png" class="img-fluid">
                                     <dir class="image-shadow">
-                                       <i class="fa fa-play"></i>
+                                         <a href="#" class="js-video-button" data-channel="video" data-video-url="omarfaruque96.github.io/Axit-responsive/trailer.mp4">
+                                          <i class="fa fa-play"></i>
+                                        </a>
+                                     
                                     </dir>
                                 </div>
-                                <dir class="back-deco"></dir>                            
+                                <dir class="back-deco"></dir>                         
                             </div>
                          </dir>
                     </div>
@@ -204,19 +211,30 @@
                           </dir>
                     
                           <dir class="row">
-                            <dir class="col-md-4 text-align:centre" >
+                            <dir class="col-md-4" >
                               <img src="image/product-1.png" class="img-fluid">
                               <h2 class="service-title">Veterinarian</h2>
+                                 
+                                  <dir class="price">
+                                     <p><del>$50</del>$30</p>
+                                  </dir>
+
                               <button class="bye-btn">Bye Now</button>                         
                             </dir>     
                             <dir class="col-md-4 text-align:centre" >
                               <img src="image/product-2.png" class="img-fluid">
                               <h2 class="service-title">Vaccination Care</h2>
+                             <dir class="price">
+                                      <p><del>$45</del>$25</p>
+                                  </dir>
                                <button class="bye-btn">Bye Now</button>                         
                             </dir>   
                             <dir class="col-md-4 text-align:centre" >
                               <img src="image/product-3.png" class="img-fluid">
                               <h2 class="service-title">Dental Care</h2>
+                              <dir class="price">
+                                     <p><del>$40</del>$20</p>
+                                  </dir>
                                <button class="bye-btn">Bye Now</button>                          
                             </dir>                          
                           </dir>
@@ -290,24 +308,25 @@
           <dir class="overlay-viewer"></dir>
           <dir class="container">
               <dir class="row">
-                  <dir class="col-md-4">
+                  <dir class="col-md-4 text-centre">
                       <dir class="customer-text"  >
                          <i class="fa fa-heartbeat" aria-hidden="true"></i>
-                        <h2>+43527</h2>
+                         <h2>+<span class="counter">47546</span></h2>
                          <h3>Happy Clients</h3>
                       </dir>
                   </dir>
-                   <dir class="col-md-4">
+                   <dir class="col-md-4 text-centre">
                     <dir class="customer-text"  >
                          <i class="fa fa-stethoscope" aria-hidden="true"></i>
-                        <h2>+43527</h2>
+                           <h2>+<span class="counter">+43527</span></h2>
                          <h3>Department</h3>
                       </dir>
                   </dir>
-                   <dir class="col-md-4">
+                    <dir class="col-md-4 text-centre">
                     <dir class="customer-text"  >
                          <i class="fa fa-ambulance" aria-hidden="true"></i>
-                        <h2>+43527</h2>
+                          <h2>+<span class="counter">+43527</span></h2>
+                        
                          <h3>Vaccinations</h3>
                       </dir>
                   </dir>
@@ -447,5 +466,26 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
+
+
+    <!-- modal Video Plagin jquery -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+   <script>
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 5000
+            });
+        });
+    </script>
+
+    <!-- counter up plugin -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+
+
+
   </body>
 </html>
