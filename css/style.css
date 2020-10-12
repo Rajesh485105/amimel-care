@@ -65,10 +65,9 @@ Banner css code start herere*
 .right-banner{
            padding: 120px 0 35px 0;
 }
-.left-banner .title {
+.left-banner .title h1{
 	    color: white;
-    font-size: 64px;
-
+   font-size: 64px;
 }
 .left-banner  .sub-title{
     color: white;
